@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fpga_back_to_back_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fpga_back_to_back_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="236.001 ns"></ZoomEndTime>
+      <Cursor1Time time="236.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/fpga_back_to_back_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/market_data_in" type="array">
+      <obj_property name="ElementShortName">market_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">market_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/is_ask_in" type="logic">
+      <obj_property name="ElementShortName">is_ask_in</obj_property>
+      <obj_property name="ObjectShortName">is_ask_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/order_type" type="array">
+      <obj_property name="ElementShortName">order_type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">order_type[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/order_price" type="array">
+      <obj_property name="ElementShortName">order_price[15:0]</obj_property>
+      <obj_property name="ObjectShortName">order_price[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/order_quantity" type="array">
+      <obj_property name="ElementShortName">order_quantity[7:0]</obj_property>
+      <obj_property name="ObjectShortName">order_quantity[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/order_valid" type="logic">
+      <obj_property name="ElementShortName">order_valid</obj_property>
+      <obj_property name="ObjectShortName">order_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/spread" type="array">
+      <obj_property name="ElementShortName">spread[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spread[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/buy_signal" type="logic">
+      <obj_property name="ElementShortName">buy_signal</obj_property>
+      <obj_property name="ObjectShortName">buy_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/sell_signal" type="logic">
+      <obj_property name="ElementShortName">sell_signal</obj_property>
+      <obj_property name="ObjectShortName">sell_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/hold_signal" type="logic">
+      <obj_property name="ElementShortName">hold_signal</obj_property>
+      <obj_property name="ObjectShortName">hold_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/total_orders" type="array">
+      <obj_property name="ElementShortName">total_orders[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_orders[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/buy_orders" type="array">
+      <obj_property name="ElementShortName">buy_orders[31:0]</obj_property>
+      <obj_property name="ObjectShortName">buy_orders[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/sell_orders" type="array">
+      <obj_property name="ElementShortName">sell_orders[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sell_orders[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fpga_back_to_back_tb/expected_prices" type="array">
+      <obj_property name="ElementShortName">expected_prices[0:6][15:0]</obj_property>
+      <obj_property name="ObjectShortName">expected_prices[0:6][15:0]</obj_property>
+   </wvobject>
+</wave_config>
